@@ -1,7 +1,6 @@
 @import '../../../styles/colors';
 @import '../../../styles/variables';
 
-
 nav {
   background-color: $lightgray;
   position: absolute;
@@ -12,17 +11,14 @@ nav {
   display: flex;
   flex-direction: row;
   box-shadow: $box-shadow;
-
   .brand {
     @include default-font(30px);
     line-height: 56px;
   }
-
   ul {
     list-style-type: none;
     float: right;
     line-height: 56px;
-
     li {
       padding: 0 10px;
 
